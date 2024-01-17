@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS minions;
+USE minions;
+
+CREATE TABLE minions (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(40),
+    age int
+);
+
+CREATE TABLE towns (
+    town_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(40)
+);
